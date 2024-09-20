@@ -89,7 +89,7 @@ theme="dark"
 
           <div class="form">
             <h1>SEND US A MESSAGE:</h1>
-            <form action="https://api.web3forms.com/submit" method="POST" method="POST" >
+            <form action="https://api.web3forms.com/submit" method="POST" >
                 <input type="hidden" name="access_key" value="2295bfcd-fd54-44ef-ad22-c8d2ed0a1524" />
                 <p><span class="inputs wpcf7-form-control-wrap" data-name="your-name"><input size="22" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your name" value="" type="text" name="your-name" required /></span>
                 </p>
