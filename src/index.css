@@ -1,0 +1,167 @@
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7EED3;
+    padding: 10px;
+    color: white;
+}
+.brand{
+    font-weight: bolder;
+    width: 20%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.search-bar{
+    width: 60%;
+}
+
+.search-bar input{
+    width: 55%;
+    /* text-align:center; */
+}
+input::placeholder{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cart{
+    width: 20%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #674636;
+    color: white;
+    font-weight: bold;
+
+    .items{
+        color: white;
+    }
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    width: 350px;
+    height: 350px;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+
+    .img{
+        padding-top: 10rem;
+    }
+}
+
+.img {
+    height: 15rem;
+    width: 20rem;
+}
+
+.card{
+    height: 25rem;
+}
+
+.login {
+    margin-right: 4rem;
+    width: 6rem;
+    border-radius: 2rem;
+    background-color: rgb(110, 228, 110);
+    font-weight: bolder;
+}
+
+.logout{
+    margin-right: 4rem;
+    width: 6rem;
+    border-radius: 2rem;
+    background-color: rgb(245, 44, 44);
+    font-size: bolder;
+}
+
+.btnn{
+    width: 10rem;
+}
+
+.containts{
+    display: flex;
+    gap: 4rem;
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    gap: 30rem;
+    height: 450px;
+    justify-content: center;
+    background-color: #674636;
+}
+
+.menu{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.form{
+    width: 20%;
+    height: 400px;
+    font-size: 20px;
+    background: gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    h1{
+        font-size: 20px;
+    }
+
+    input{
+        font-size: 16px;
+        margin: 2px;
+        border: 2px solid black;
+    }
+
+    textarea{
+        font-size: 16px;
+        margin: 2px;
+        border: 2px solid black;
+    }
+
+    .btn{
+        font-size: 16px;
+        background: #04AA6D;
+    }
+}
+
+.tag{
+    text-align: center;
+    background-color: #674636;
+    height: 20px;
+    color: white;
+}
